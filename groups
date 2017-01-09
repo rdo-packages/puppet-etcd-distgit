@@ -1,3 +1,5 @@
-# UUID                                  	Group Name
-#
-913559afa506acc6a08de64a963ba35f23b14240	puppet/puppet-etcd-distgit-ptl
+# UUID          Group Name
+False 	Non-Interactive Users
+bb86e3ab8ac86bfdf6c25a2377f881ca2df74e0e       	puppet/puppet-etcd-distgit-core
+913559afa506acc6a08de64a963ba35f23b14240        	puppet/puppet-etcd-distgit-ptl
+global:Registered-Users		Registered Users
