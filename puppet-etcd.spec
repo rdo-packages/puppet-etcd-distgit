@@ -6,9 +6,9 @@ Release:                XXX
 Summary:                Installs and configures etcd
 License:                ASL 2.0
 
-URL:                    https://github.com/cristifalcas/puppet-etcd
+URL:                    https://github.com/puppet-etcd/puppet-etcd
 
-Source0:                https://github.com/cristifalcas/puppet-etcd/archive/%{version}.tar.gz
+Source0:                https://github.com/puppet-etcd/puppet-etcd/archive/%{version}.tar.gz
 
 BuildArch:              noarch
 
@@ -43,4 +43,5 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/etcd/
 
 
 %changelog
-
+* Wed Oct 16 2019 Alan Bishop <abishop@redhat.com>
+- Update URL to new offical location
