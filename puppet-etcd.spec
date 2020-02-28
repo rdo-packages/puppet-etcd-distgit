@@ -50,4 +50,3 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/etcd/
 * Thu Oct 3 2019 RDO <dev@lists.rdoproject.org> 1.12.2-3.39faa94git
 - Update to post 1.12.2 (39faa948f68c8e8ac0337ea74c1406da776cd71b)
 
-
