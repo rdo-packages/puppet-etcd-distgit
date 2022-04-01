@@ -1,8 +1,8 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:                   puppet-etcd
-Version:                XXX
-Release:                XXX
+Version:                1.12.3
+Release:                1%{?dist}
 Summary:                Installs and configures etcd
 License:                ASL 2.0
 
@@ -43,5 +43,5 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/etcd/
 
 
 %changelog
-* Wed Oct 16 2019 Alan Bishop <abishop@redhat.com>
-- Update URL to new offical location
+* Fri Apr 01 2022 RDO <dev@lists.rdoproject.org> 1.12.3-1
+- Update to 1.12.3
